@@ -6,7 +6,7 @@ For details, please check [Wiki](https://github.com/turippj/TURIP/wiki).
 
 ## Contents in this repository
 
-TURIPspecification.txt: Specification documents to define TURIP.
+TURIPspecification.txt: A specification document to define TURIP.
 
 ## Libraries
 
