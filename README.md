@@ -10,4 +10,4 @@ TURIPspecification.txt: Specification documents to define TURIP.
 
 ## Libraries
 
-* [Arduino](https://github.com/turippj/TURIPlibrariesForArduino)
+* [TURIPlibrariesForArduino](https://github.com/turippj/TURIPlibrariesForArduino)
