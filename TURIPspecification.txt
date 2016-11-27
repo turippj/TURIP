@@ -1,12 +1,11 @@
-                                                           T. Kageyama
                                                  TURIP Formulate Group
-                                                      21 November 2016
+                                                      27 November 2016
 
       Tiny (Tottori university) Universal Robot Interface Protocol
 
 Version
 
-    Draft-2016-11-21-01
+    Draft-2016-11-27-01
 
 Status of this Memo
 
