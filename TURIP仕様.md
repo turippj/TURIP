@@ -1,7 +1,7 @@
-# Tiny Universal (Tottori University) Robot Interface Protocol (TURIP) 0.20 基本仕様書
+# Tiny Universal (Tottori University) Robot Interface Protocol (TURIP) 0.20 仕様
 
-作成者: 影山 智明
-更新日: 2017年4月7日
+作成者: 影山 智明  
+更新日: 2017年11月24日
 
 ## TURIPの概要
 
