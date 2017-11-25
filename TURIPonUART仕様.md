@@ -1,7 +1,4 @@
-# TURIPonUART 仕様
-
-作成者: 影山 智明  
-作成日: 2017年11月24日
+# TURIPonUART仕様
 
 ## 概要
 

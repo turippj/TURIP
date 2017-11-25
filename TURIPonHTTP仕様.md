@@ -1,7 +1,4 @@
-# TURIPonHTTP 仕様
-
-作成者: 影山 智明  
-更新日: 2017年11月19日
+# TURIPonHTTP仕様
 
 ## 概要
 
