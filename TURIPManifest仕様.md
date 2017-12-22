@@ -3,7 +3,7 @@
 ## 概要
 
 マニフェストはTURIPデバイスの利用方法を知ることのできるJSONフォーマットからなるテキストデータです。
-マニフェストはTURIP管理組織のリポジトリ(manifest.turio.org)に保管されます。
+マニフェストはTURIP管理組織のリポジトリ(manifest.turip.org)に保管されます。
 
 ## データ構造
 
@@ -34,7 +34,7 @@ portオブジェクトは、TURIPモジュールにどのようなポートが�
 
 Key         | Value type | 概要
 ------------|------------|-----------------------------
-number      | number     | ポート番号
+number      | integer    | ポート番号
 name        | string     | ポート名
 description | string     | ポートの説明
 type        | string     | TURIPデータ型
