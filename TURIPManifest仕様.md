@@ -8,26 +8,17 @@
 ## データ構造
 
 マニフェストのエンコードはUTF-8です。
+TURIPのManifestを構成する要素を以下に示します。
 
-### 必須な要素
+Key         | Value type | 概要
+------------|------------|------------------------------------
+protocol    | string     | TURIPのバージョン("TURIP0.20")
+model       | string     | TURIP型(16進数表記)
+description | string     | TURIPデバイスの説明文
+interface   | string[]   | TURIPデバイスが持つインターフェイス
+port        | object[]   | ポート構成の定義
 
-TURIPのManifestを構成する上で必須となる要素のリストです。
-
-Key      | Value type | 概要
----------|------------|---------------------------------------------------
-protocol | string     | TURIPであるかどうかと、TURIPのバージョンを示します
-model    | string     | TURIP型番を16進数表記で示します
-port     | object[]   | TURIPデバイスのポート構成を定義します
-
-#### "protocol"
-
-"TURIP0.20"を保持します。
-
-#### "model"
-
-TURIP型番を16進数表記で示します。
-
-#### "port"
+### "port"オブジェクト
 
 portオブジェクトは、TURIPモジュールにどのようなポートが存在するかを示すものです。
 以下に構造を示します。
@@ -39,35 +30,35 @@ name        | string     | ポート名
 description | string     | ポートの説明
 type        | string     | TURIPデータ型
 permission  | string     | ポートへの読み書き許可
-profile     | string     | 対応するプロファイルの要素名
 
-##### "number"
+
+#### "number"
 
 このキーは必須です。
 ポート番号を記述します。
 
-##### "name"
+#### "name"
 
 このキーは必須です。
 ポートの名前です。
 
-##### "description"
+#### "description"
 
 このキーはオプション(推奨)です。
 ポートの説明を記述します。
 
-##### "type"
+#### "type"
 
 このキーは必須です。
 TURIPデータ型を記述します。
 
-##### "permission"
+#### "permission"
 
 このキーはオプションです。ポートの読み書きに制限があるかどうかを示します。
 値は以下の通りです。
 
 Value | 説明
 ------|-------------
-"RO"  | 読み取り専用
-"WO"  | 書き込み専用
-"RW"  | 読み書き可能
+"R"  | 読み取り専用
+"W"  | 書き込み専用
+"RW"  | 読み書き可能（デフォルト）
