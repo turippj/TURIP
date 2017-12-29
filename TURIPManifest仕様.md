@@ -19,6 +19,17 @@ description | string     | TURIPデバイスの説明文
 interface   | string[]   | TURIPデバイスが持つインターフェイス
 port        | object[]   | ポート構成の定義
 
+### "interface"
+
+"interface"では、TURIPデバイスが持つインターフェイスを列挙します。
+以下に種別を示します。
+
+Value    | 内容
+---------|------------------------------------------
+"spi"    | シリアルペリフェラルインターフェイス(SPI)
+"serial" | 調歩同期式シリアルインターフェイス(UART)
+"HTTP"   | HTTPサーバ
+
 ### "port"オブジェクト
 
 portオブジェクトは、TURIPモジュールにどのようなポートが存在するかを示すものです。
