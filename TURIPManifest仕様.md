@@ -13,7 +13,8 @@ TURIPのManifestを構成する要素を以下に示します。
 Key         | Value type | 概要
 ------------|------------|------------------------------------
 protocol    | string     | TURIPのバージョン("TURIP0.20")
-model       | string     | TURIP型(16進数表記)
+model       | string     | TURIPデバイスの型番(TURIP ID 上位32bit, 16進数表記)
+name        | string     | TURIPデバイス名
 description | string     | TURIPデバイスの説明文
 interface   | string[]   | TURIPデバイスが持つインターフェイス
 port        | object[]   | ポート構成の定義
