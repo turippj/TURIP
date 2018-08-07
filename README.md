@@ -4,7 +4,7 @@ TURIP(Tottori university Universal Robot Interface Protocol) is a light weight p
 
 ## Version
 
-0.2-draft
+0.2.0-draft
 
 ## Libraries
 
