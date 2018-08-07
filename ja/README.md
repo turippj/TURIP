@@ -4,7 +4,7 @@ TURIP(Tottori university Universal Robot Interface Protocol) は組み込み機�
 
 ## バージョン
 
-0.2-draft
+0.2.0-draft
 
 ## ライブラリ
 
