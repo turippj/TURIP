@@ -62,18 +62,18 @@ TURIPでは、予め決められたデータ形式（データ型）を扱うこ
 TURIPはTURIPデバイス内部に構築された「ポート」にアクセスすることでデータ交換を実現しています。
 ポートにはそれぞれにデータが格納されています。
 ポートの範囲は0から127までです。
-詳細は「TURIPのポートマップ」を参照してください。
+詳細は「TURIPのポートマップ(PortMapping.md)」を参照してください。
 
 ## 対応プロトコル
 
 TURIPは複数の既存プロトコルに対応しています。
 それぞれのプロトコルにおける仕様は、別紙で定義します。
 
-プロトコル       | ドキュメントタイトル
----------------|------------------
-SPI            | TURIPonSPI 仕様
-UART           | TURIPonUART 仕様
-HTTP           | TURIPonHTTP 仕様
+プロトコル | ドキュメントタイトル
+-----------|---------------------------------
+SPI        | TURIPonSPI仕様 (TURIPonSPI.md)
+UART       | TURIPonUART仕様 (TURIPonUART.md)
+HTTP       | TURIPonHTTP仕様 (TURIPonHTTP.md)
 
 ### バイナリインターフェイス/テキストインターフェイス
 
@@ -115,4 +115,4 @@ TURIPモジュールは、マニフェストと呼ばれるドキュメントで
 マニフェストの取得はHTTP GETメソッドによって、
 `http(s)://manifest.turip.org/[型番]`にアクセスします。
 型番は16進数表記です。
-詳細は「TURIPManifest仕様」を参照してください。
+詳細は「TURIPManifest仕様(Manifest.md)」を参照してください。
