@@ -31,7 +31,9 @@ TURIPonSPIは明確な物理仕様を有しません。
 
 TURIPonSPIはSPIモード0で動作します。
 クロック速度は`PORT_SPI_MAX_SPEED`で最大値が決められています。
+ただし、PORT_SPI_MAX_SPEEDは100kHz以上でなければなりません。
 また、1バイト転送毎に`PORT_SPI_MIN_DELAY`で定められる期間を空けなければなりません。
+ただし、PORT_SPI_MIN_DELAYは200us以下でなければなりません。
 
 ## データフォーマット
 
