@@ -4,7 +4,7 @@ TURIP(Tottori university Universal Robot Interface Protocol) は組み込み機�
 
 ## Table of contents
 
-- [メイン](main.md)
+- [TURIP仕様](main.md)
   - [ポートマッピング](PortMapping.md)
   - インターフェイス関連
     - [TURIPonSPI](TURIPonSPI.md)
