@@ -8,4 +8,4 @@ TURIP(Tottori university Universal Robot Interface Protocol) is a light weight p
 
 ## Libraries
 
-* [TURIPlibrariesForArduino](https://github.com/turippj/TURIPlibrariesForArduino)
+* [TURIPlibrariesForArduino](https://github.com/turippj/TURIPlibrariesForArduino/releases/tag/0.2.2-beta)
